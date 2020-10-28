@@ -1,12 +1,13 @@
 import './App.css';
+import {Container} from '@material-ui/core';
 import Slider from './components/Slider';
 
 function App() {
 
   return (
-    <div className="container">
+    <Container maxWidth="sm">
       <Slider />
-    </div>
+    </Container>
   );
 }
 
